@@ -10,3 +10,4 @@ C:\Users\diego\source\repos\1.CURSO_PROGRAMACION_VISUAL_BASIC\VISUAL_BASIC_PRACT
 C:\Users\diego\source\repos\1.CURSO_PROGRAMACION_VISUAL_BASIC\VISUAL_BASIC_PRACTICAS_CONSOLA\WindowsForms_VB\obj\Debug\WindowsForms_VB.xml
 C:\Users\diego\source\repos\1.CURSO_PROGRAMACION_VISUAL_BASIC\VISUAL_BASIC_PRACTICAS_CONSOLA\WindowsForms_VB\obj\Debug\WindowsForms_VB.pdb
 C:\Users\diego\source\repos\1.CURSO_PROGRAMACION_VISUAL_BASIC\VISUAL_BASIC_PRACTICAS_CONSOLA\WindowsForms_VB\obj\Debug\WindowsForms_VB.Form1.resources
+C:\Users\diego\source\repos\1.CURSO_PROGRAMACION_VISUAL_BASIC\VISUAL_BASIC_PRACTICAS_CONSOLA\WindowsForms_VB\obj\Debug\WindowsForms_VB.Form2.resources
