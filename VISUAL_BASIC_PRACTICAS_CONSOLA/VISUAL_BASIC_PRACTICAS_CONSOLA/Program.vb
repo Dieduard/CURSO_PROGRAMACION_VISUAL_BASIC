@@ -180,18 +180,7 @@ Module Program
         'Next
         'Console.ReadLine()
         '-----------------------------------------------------------------------------------------------------
-
-        Dim TestArray(10) As Integer, I As VariantType
-        For Each I In TestArray
-            TestArray(I) = I
-        Next I
-
-
-
-
-
-
-
+        'Hola como estas
 
     End Sub
 End Module
