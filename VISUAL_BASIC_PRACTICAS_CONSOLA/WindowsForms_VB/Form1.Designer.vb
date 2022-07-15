@@ -56,7 +56,7 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(45, 79)
+        Me.Label1.Location = New System.Drawing.Point(31, 61)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(66, 18)
@@ -67,7 +67,7 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(45, 108)
+        Me.Label2.Location = New System.Drawing.Point(31, 87)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(63, 18)
@@ -78,7 +78,7 @@ Partial Class Form1
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(63, 141)
+        Me.Label3.Location = New System.Drawing.Point(49, 115)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(46, 18)
@@ -89,7 +89,7 @@ Partial Class Form1
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(45, 206)
+        Me.Label4.Location = New System.Drawing.Point(39, 160)
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(58, 18)
@@ -99,7 +99,7 @@ Partial Class Form1
         'txtnombre
         '
         Me.txtnombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtnombre.Location = New System.Drawing.Point(166, 68)
+        Me.txtnombre.Location = New System.Drawing.Point(152, 50)
         Me.txtnombre.Margin = New System.Windows.Forms.Padding(4)
         Me.txtnombre.Name = "txtnombre"
         Me.txtnombre.Size = New System.Drawing.Size(148, 24)
@@ -108,7 +108,7 @@ Partial Class Form1
         'txtApellido
         '
         Me.txtApellido.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtApellido.Location = New System.Drawing.Point(166, 98)
+        Me.txtApellido.Location = New System.Drawing.Point(152, 77)
         Me.txtApellido.Margin = New System.Windows.Forms.Padding(4)
         Me.txtApellido.Name = "txtApellido"
         Me.txtApellido.Size = New System.Drawing.Size(148, 24)
@@ -117,7 +117,7 @@ Partial Class Form1
         'txtEdad
         '
         Me.txtEdad.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtEdad.Location = New System.Drawing.Point(166, 130)
+        Me.txtEdad.Location = New System.Drawing.Point(152, 104)
         Me.txtEdad.Margin = New System.Windows.Forms.Padding(4)
         Me.txtEdad.Name = "txtEdad"
         Me.txtEdad.Size = New System.Drawing.Size(148, 24)
@@ -126,7 +126,7 @@ Partial Class Form1
         'txtSueldo
         '
         Me.txtSueldo.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSueldo.Location = New System.Drawing.Point(160, 195)
+        Me.txtSueldo.Location = New System.Drawing.Point(146, 154)
         Me.txtSueldo.Margin = New System.Windows.Forms.Padding(4)
         Me.txtSueldo.Name = "txtSueldo"
         Me.txtSueldo.Size = New System.Drawing.Size(148, 24)
@@ -135,7 +135,7 @@ Partial Class Form1
         'btnMostrar
         '
         Me.btnMostrar.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnMostrar.Location = New System.Drawing.Point(342, 72)
+        Me.btnMostrar.Location = New System.Drawing.Point(369, 80)
         Me.btnMostrar.Margin = New System.Windows.Forms.Padding(4)
         Me.btnMostrar.Name = "btnMostrar"
         Me.btnMostrar.Size = New System.Drawing.Size(180, 32)
@@ -149,7 +149,7 @@ Partial Class Form1
         Me.DgvDatos.AllowUserToDeleteRows = False
         Me.DgvDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DgvDatos.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column6, Me.Column5, Me.Column4})
-        Me.DgvDatos.Location = New System.Drawing.Point(19, 228)
+        Me.DgvDatos.Location = New System.Drawing.Point(5, 182)
         Me.DgvDatos.Margin = New System.Windows.Forms.Padding(4)
         Me.DgvDatos.Name = "DgvDatos"
         Me.DgvDatos.ReadOnly = True
@@ -196,7 +196,7 @@ Partial Class Form1
         '
         Me.rdbHombre.AutoSize = True
         Me.rdbHombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rdbHombre.Location = New System.Drawing.Point(166, 169)
+        Me.rdbHombre.Location = New System.Drawing.Point(152, 131)
         Me.rdbHombre.Margin = New System.Windows.Forms.Padding(4)
         Me.rdbHombre.Name = "rdbHombre"
         Me.rdbHombre.Size = New System.Drawing.Size(80, 22)
@@ -209,7 +209,7 @@ Partial Class Form1
         '
         Me.rdbMujer.AutoSize = True
         Me.rdbMujer.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rdbMujer.Location = New System.Drawing.Point(251, 169)
+        Me.rdbMujer.Location = New System.Drawing.Point(237, 131)
         Me.rdbMujer.Margin = New System.Windows.Forms.Padding(4)
         Me.rdbMujer.Name = "rdbMujer"
         Me.rdbMujer.Size = New System.Drawing.Size(63, 22)
@@ -222,7 +222,7 @@ Partial Class Form1
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(66, 171)
+        Me.Label5.Location = New System.Drawing.Point(52, 133)
         Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(42, 18)
@@ -233,7 +233,7 @@ Partial Class Form1
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(25, 470)
+        Me.Label6.Location = New System.Drawing.Point(142, 414)
         Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(78, 20)
@@ -244,7 +244,7 @@ Partial Class Form1
         '
         Me.lblHombres.AutoSize = True
         Me.lblHombres.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblHombres.Location = New System.Drawing.Point(152, 470)
+        Me.lblHombres.Location = New System.Drawing.Point(269, 414)
         Me.lblHombres.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblHombres.Name = "lblHombres"
         Me.lblHombres.Size = New System.Drawing.Size(33, 20)
@@ -255,7 +255,7 @@ Partial Class Form1
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(219, 470)
+        Me.Label8.Location = New System.Drawing.Point(336, 414)
         Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(69, 20)
@@ -266,7 +266,7 @@ Partial Class Form1
         '
         Me.lblMujeres.AutoSize = True
         Me.lblMujeres.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblMujeres.Location = New System.Drawing.Point(337, 470)
+        Me.lblMujeres.Location = New System.Drawing.Point(454, 414)
         Me.lblMujeres.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblMujeres.Name = "lblMujeres"
         Me.lblMujeres.Size = New System.Drawing.Size(33, 20)
@@ -275,7 +275,7 @@ Partial Class Form1
         '
         'btnLimpiar
         '
-        Me.btnLimpiar.Location = New System.Drawing.Point(342, 108)
+        Me.btnLimpiar.Location = New System.Drawing.Point(369, 114)
         Me.btnLimpiar.Name = "btnLimpiar"
         Me.btnLimpiar.Size = New System.Drawing.Size(180, 30)
         Me.btnLimpiar.TabIndex = 8
@@ -284,7 +284,7 @@ Partial Class Form1
         '
         'btnSalir
         '
-        Me.btnSalir.Location = New System.Drawing.Point(447, 144)
+        Me.btnSalir.Location = New System.Drawing.Point(575, 148)
         Me.btnSalir.Name = "btnSalir"
         Me.btnSalir.Size = New System.Drawing.Size(75, 27)
         Me.btnSalir.TabIndex = 9
@@ -293,7 +293,7 @@ Partial Class Form1
         '
         'btnOtroFormulario
         '
-        Me.btnOtroFormulario.Location = New System.Drawing.Point(542, 72)
+        Me.btnOtroFormulario.Location = New System.Drawing.Point(404, 145)
         Me.btnOtroFormulario.Name = "btnOtroFormulario"
         Me.btnOtroFormulario.Size = New System.Drawing.Size(145, 32)
         Me.btnOtroFormulario.TabIndex = 10
@@ -304,7 +304,7 @@ Partial Class Form1
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(161, 27)
+        Me.Label7.Location = New System.Drawing.Point(147, 9)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(402, 25)
         Me.Label7.TabIndex = 17
@@ -314,7 +314,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(703, 503)
+        Me.ClientSize = New System.Drawing.Size(703, 450)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.btnOtroFormulario)
         Me.Controls.Add(Me.btnSalir)
