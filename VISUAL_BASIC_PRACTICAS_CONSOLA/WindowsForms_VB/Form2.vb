@@ -34,15 +34,22 @@
             TextBox2.Text = "$ " & total
         Next
     End Sub
+
+
 #End Region
 
 #Region "TODO SOBRE EL BOTON SALIR"
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Close()
     End Sub
+
+
+
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Close()
     End Sub
+
+
 #End Region
 
 #Region "COBRO DE PAGINAS OPCION UNO"
@@ -70,4 +77,31 @@
     End Sub
 #End Region
 
+#Region "GENERAR NUMEROS IMPARES"
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        For i = 1 To 25
+            If i Mod 2 <> 0 Then
+                ListBox2.Items.Add(i)
+            End If
+        Next
+    End Sub
+#End Region
+
+#Region "GENERAR NUMEROS PARES"
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        For i = 1 To 25
+            If i Mod 2 = 0 Then
+                ListBox3.Items.Add(i)
+            End If
+        Next
+    End Sub
+#End Region
+
+#Region "GENERAR NUMEROS DEL 1 - 15"
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        For i = 1 To 18
+            ListBox4.Items.Add(i)
+        Next
+    End Sub
+#End Region
 End Class

@@ -44,24 +44,39 @@ Partial Class Form2
         Me.GroupBox = New System.Windows.Forms.GroupBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Label10 = New System.Windows.Forms.Label()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.ComboBoxPaginas = New System.Windows.Forms.ComboBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Label10 = New System.Windows.Forms.Label()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.ListBox2 = New System.Windows.Forms.ListBox()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.ListBox3 = New System.Windows.Forms.ListBox()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.ListBox4 = New System.Windows.Forms.ListBox()
+        Me.Button7 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox4.SuspendLayout()
+        Me.GroupBox5.SuspendLayout()
+        Me.GroupBox6.SuspendLayout()
         Me.SuspendLayout()
         '
         'ListBox1
@@ -289,6 +304,14 @@ Partial Class Form2
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Cobro de Paginas "
         '
+        'TextBox2
+        '
+        Me.TextBox2.Enabled = False
+        Me.TextBox2.Location = New System.Drawing.Point(253, 23)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox2.TabIndex = 20
+        '
         'DataGridView1
         '
         Me.DataGridView1.AllowUserToAddRows = False
@@ -324,6 +347,15 @@ Partial Class Form2
         Me.Column4.HeaderText = "Total"
         Me.Column4.Name = "Column4"
         Me.Column4.ReadOnly = True
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(205, 27)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(42, 16)
+        Me.Label10.TabIndex = 19
+        Me.Label10.Text = "Total:"
         '
         'Button4
         '
@@ -380,29 +412,135 @@ Partial Class Form2
         Me.TextBox1.Size = New System.Drawing.Size(100, 22)
         Me.TextBox1.TabIndex = 6
         '
-        'TextBox2
+        'GroupBox4
         '
-        Me.TextBox2.Enabled = False
-        Me.TextBox2.Location = New System.Drawing.Point(253, 23)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox2.TabIndex = 20
+        Me.GroupBox4.Controls.Add(Me.Label11)
+        Me.GroupBox4.Controls.Add(Me.ListBox2)
+        Me.GroupBox4.Controls.Add(Me.Button5)
+        Me.GroupBox4.Location = New System.Drawing.Point(12, 307)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Size = New System.Drawing.Size(200, 279)
+        Me.GroupBox4.TabIndex = 21
+        Me.GroupBox4.TabStop = False
+        Me.GroupBox4.Text = "NUMEROS IMPARES"
         '
-        'Label10
+        'Label11
         '
-        Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(205, 27)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(42, 16)
-        Me.Label10.TabIndex = 19
-        Me.Label10.Text = "Total:"
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(0, 29)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(191, 16)
+        Me.Label11.TabIndex = 1
+        Me.Label11.Text = "Creacion de Numeros Impares"
+        '
+        'ListBox2
+        '
+        Me.ListBox2.FormattingEnabled = True
+        Me.ListBox2.ItemHeight = 16
+        Me.ListBox2.Location = New System.Drawing.Point(20, 49)
+        Me.ListBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.ListBox2.Name = "ListBox2"
+        Me.ListBox2.Size = New System.Drawing.Size(140, 180)
+        Me.ListBox2.TabIndex = 0
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(20, 236)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(140, 31)
+        Me.Button5.TabIndex = 2
+        Me.Button5.Text = "Generar Numeros"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'GroupBox5
+        '
+        Me.GroupBox5.Controls.Add(Me.Label12)
+        Me.GroupBox5.Controls.Add(Me.ListBox3)
+        Me.GroupBox5.Controls.Add(Me.Button6)
+        Me.GroupBox5.Location = New System.Drawing.Point(218, 307)
+        Me.GroupBox5.Name = "GroupBox5"
+        Me.GroupBox5.Size = New System.Drawing.Size(200, 279)
+        Me.GroupBox5.TabIndex = 22
+        Me.GroupBox5.TabStop = False
+        Me.GroupBox5.Text = "NUMEROS PARES"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(0, 29)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(178, 16)
+        Me.Label12.TabIndex = 1
+        Me.Label12.Text = "Creacion de Numeros Pares"
+        '
+        'ListBox3
+        '
+        Me.ListBox3.FormattingEnabled = True
+        Me.ListBox3.ItemHeight = 16
+        Me.ListBox3.Location = New System.Drawing.Point(20, 49)
+        Me.ListBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.ListBox3.Name = "ListBox3"
+        Me.ListBox3.Size = New System.Drawing.Size(140, 180)
+        Me.ListBox3.TabIndex = 0
+        '
+        'Button6
+        '
+        Me.Button6.Location = New System.Drawing.Point(20, 236)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(140, 31)
+        Me.Button6.TabIndex = 2
+        Me.Button6.Text = "Generar Numeros"
+        Me.Button6.UseVisualStyleBackColor = True
+        '
+        'GroupBox6
+        '
+        Me.GroupBox6.Controls.Add(Me.Label13)
+        Me.GroupBox6.Controls.Add(Me.ListBox4)
+        Me.GroupBox6.Controls.Add(Me.Button7)
+        Me.GroupBox6.Location = New System.Drawing.Point(425, 307)
+        Me.GroupBox6.Name = "GroupBox6"
+        Me.GroupBox6.Size = New System.Drawing.Size(200, 279)
+        Me.GroupBox6.TabIndex = 23
+        Me.GroupBox6.TabStop = False
+        Me.GroupBox6.Text = "NUMEROS 1-18"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(0, 29)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(139, 16)
+        Me.Label13.TabIndex = 1
+        Me.Label13.Text = "Creacion de Numeros"
+        '
+        'ListBox4
+        '
+        Me.ListBox4.FormattingEnabled = True
+        Me.ListBox4.ItemHeight = 16
+        Me.ListBox4.Location = New System.Drawing.Point(20, 49)
+        Me.ListBox4.Margin = New System.Windows.Forms.Padding(4)
+        Me.ListBox4.Name = "ListBox4"
+        Me.ListBox4.Size = New System.Drawing.Size(140, 180)
+        Me.ListBox4.TabIndex = 0
+        '
+        'Button7
+        '
+        Me.Button7.Location = New System.Drawing.Point(20, 236)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(140, 31)
+        Me.Button7.TabIndex = 2
+        Me.Button7.Text = "Generar Numeros"
+        Me.Button7.UseVisualStyleBackColor = True
         '
         'Form2
         '
         Me.AllowDrop = True
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1067, 554)
+        Me.ClientSize = New System.Drawing.Size(1067, 611)
+        Me.Controls.Add(Me.GroupBox6)
+        Me.Controls.Add(Me.GroupBox5)
+        Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox)
@@ -419,6 +557,12 @@ Partial Class Form2
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox4.ResumeLayout(False)
+        Me.GroupBox4.PerformLayout()
+        Me.GroupBox5.ResumeLayout(False)
+        Me.GroupBox5.PerformLayout()
+        Me.GroupBox6.ResumeLayout(False)
+        Me.GroupBox6.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -458,4 +602,16 @@ Partial Class Form2
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Label10 As Label
+    Friend WithEvents GroupBox4 As GroupBox
+    Friend WithEvents Label11 As Label
+    Friend WithEvents ListBox2 As ListBox
+    Friend WithEvents Button5 As Button
+    Friend WithEvents GroupBox5 As GroupBox
+    Friend WithEvents Label12 As Label
+    Friend WithEvents ListBox3 As ListBox
+    Friend WithEvents Button6 As Button
+    Friend WithEvents GroupBox6 As GroupBox
+    Friend WithEvents Label13 As Label
+    Friend WithEvents ListBox4 As ListBox
+    Friend WithEvents Button7 As Button
 End Class
